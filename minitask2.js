@@ -9,7 +9,7 @@ const getMusic = async () => {
         const dataMusic = await res.json()
         let arrangedMusic = []
         dataMusic.forEach(music => {
-            const reverse = music.split('-').reverse().join(' - ')
+            const reverse = music.split(' - ').reverse().join(' - ')
             arrangedMusic.push(reverse)
         });
 
