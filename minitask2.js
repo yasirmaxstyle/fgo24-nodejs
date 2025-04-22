@@ -1,4 +1,3 @@
-const { reverse } = require('dns')
 const fs = require('fs')
 const path = require('path')
 
